@@ -1,1 +1,6 @@
-test
+DE-IDENTIFIED RAIS
+
+-> The codes in this repository create a de-identified version of RAIS (empty cells in PIS, CPF, CNPJ, CTPS, CEI, NAME).
+-> INPUT: region-by-year RAIS .txt files
+-> OUTPUT: yearly files named harmo_nonames_YYYY_debug.csv or harmo_nonames_YYYY.csv
+-> The suffix `_debug` indicate files containing a 5% random sample of the rows in the complete yearly .csv file.    
